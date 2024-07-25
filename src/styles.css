@@ -1,0 +1,294 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#AboutUs
+{
+  padding-top: 5px;
+}
+.navbar{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:25px;
+}
+.typewriter h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 5.5s steps(50), blink-caret 0.75s  infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.mukta-regular {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mukta-bold {
+  font-family: "Mukta", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.carousal
+{
+
+  height:350px ;
+  
+}
+
+
+.logoimage
+{
+  height: 50px;
+  width: 50px;
+margin-right:15px ;
+}
+.welcome
+{
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:100px ;
+}
+.grid
+{
+ 
+  border: 2px solid black;
+ width: 300px;
+ height: 250px; /* Ensures the box is at least 300px wide */ /* Allows the box to expand to fit larger content */
+  display: inline-block;
+  margin: 20px 30px 20px 50px;
+  padding:10px 20px 20px 10px;
+  font-size: 17.5px;
+  border-radius: 20px;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.divforgrid
+{
+  display: flex;
+  flex-wrap:   wrap;
+  flex-direction: row;
+ 
+}
+#Academics{
+  padding-top: 20px;
+}
+.headingforgrid
+{
+  background-color: darkcyan;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+.heading{
+  background-color: lightseagreen;
+  width:  250px;
+  margin-top: 100px;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ 
+}
+
+.para
+{
+  width: 400px;
+position: relative;
+left: 450px;
+font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-size:25px;
+  font-style: normal;
+}
+.list{
+  width: 400px;
+  text-align: left;
+}
+.unorderedlist
+{
+  display: flex;
+  flex-wrap:   wrap;
+  flex-direction: row;
+  margin: 40px 10px 30px 200px ;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bullet{
+  margin-left: 100px;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+}
+#Admissions
+{
+  margin-top: 100px;
+  padding-top: 20px;
+}
+.facultydiv
+{
+  border: 2px solid black;
+ width: 300px;
+ height: 250px; /* Ensures the box is at least 300px wide */ /* Allows the box to expand to fit larger content */
+  display: inline-block;
+  margin: 20px 50px 20px 90px;
+  padding:5px 20px 20px 10px;
+  font-size: medium;
+  border-radius: 20px;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.facultyname
+{
+  background-color: darkcyan;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.facultyimage{
+
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+#Faculty
+{
+
+  padding-top: 20px;
+}
+.content
+{
+  width: 1000px;
+  margin-left: 200px;
+  text-align: justify;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+.contentheading{
+  width: 1000px;
+  text-align: justify;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+}
+.subheading{
+  background-color: aqua;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:30px;
+}
+#Students
+{
+  padding-top: 20px;
+}
+.imageofgallery{
+
+  width: 430px;
+  height: 300px;
+}
+.galleryimages{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+grid-template-rows: 300px 400px ;
+grid-gap: 5px;
+}
+#Gallery{
+
+  padding-top: 20px;
+}
+#ContactUs
+{
+  padding-top: 20px;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.contact
+{
+
+  width: 500px;
+  height: 200px;
+margin-left: 50px;
+}
+.contactform
+{
+ 
+  width: 600px;
+  height: 200px;
+  margin-left: 50px;
+
+
+}
+.contactandcontactform
+{
+  display: flex;
+}
+.maps
+{
+  width: 1000px;
+  height: 500px;
+}
+
+.teko -<uniquifier> {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.arsenal-sc-regular {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@keyframes blink {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0;}
+}
+.blink{
+  animation: blink 1s linear infinite;
+}
